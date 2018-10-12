@@ -121,7 +121,7 @@ namespace polynomial
         }
         
         
-        void realRootsSturm( std::vector<double> &roots) const
+        void findRoots( std::vector<double> &roots) const
         {
             double lb,ub;
             rootBounds(lb,ub);

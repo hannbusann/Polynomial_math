@@ -44,7 +44,7 @@ int main( int argc, char **argv )
     
     std::vector<double> roots;
     
-    c.realRootsSturm(roots);
+    c.findRoots(roots);
     std::cout << "roots using sturm sequences:\n";
     for ( int i = 0; i < roots.size(); i++ ) std::cout << "c(" << roots[i] << "): " << c.eval(roots[i]) << "\n";
 
