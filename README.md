@@ -13,7 +13,7 @@ These tools depend on Eigen modules. You'd better install Eigen3 in advance.
 
 - substraction **-**
 
-- multiplication *****
+- multiplication *
 
 - evaluaiton **eval()**
 
