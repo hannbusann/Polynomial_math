@@ -24,7 +24,7 @@
 #include <unsupported/Eigen/Polynomials>
 #include <vector>
 
-#include <Polynomial/PolynomialInternal.hpp>
+#include <PolynomialInternal.hpp>
 
 namespace polynomial
 {

@@ -2,7 +2,7 @@
 #include <vector>
 #include <sys/time.h>
 #include <unistd.h>
-#include <Polynomial/Polynomial.hpp>
+#include <Polynomial.hpp>
 
 using polynomial::Polynomial;
 

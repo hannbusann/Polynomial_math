@@ -5,8 +5,8 @@ project(Polynomial)
 find_package( Eigen3 REQUIRED )
 include_directories( ${EIGEN3_INCLUDE_DIR} )
 
-include_directories( $(Polynomial) )
+include_directories( Polynomial )
 
-add_executable( testpolynomial Polynomial/Polynomial.hpp Polynomial/PolynomialInternal.hpp test/testpolynomial.cpp )
+add_executable( testpolynomial test/testpolynomial.cpp )
 
 
