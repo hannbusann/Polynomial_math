@@ -12,11 +12,17 @@ int main( int argc, char **argv )
     Eigen::Matrix<double,6,1> acoeffs;
     acoeffs << 1,2,3,4,5,6;
     Polynomial<5> a( acoeffs );
+    Polynomial<5> d( acoeffs );
+    if (a==d)
+    std::cout << "They are the same!" << std::endl;
+    std::cout << a.getDegree(d) << std::endl;
+    Polynomial<5> cc = a;
+    std::cout << cc.getDegree(d) << std::endl;
 
     Eigen::Matrix<double,5,1> bcoeffs;
     bcoeffs << 1,2,3,4,5;
     Polynomial<4> b( bcoeffs );
-
+    
     std::cout << "*** Polynomial algebra test ***\n";
     
     std::cout << "a: [" << a.coefficients().transpose() << "]\n";
