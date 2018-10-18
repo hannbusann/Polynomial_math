@@ -47,7 +47,7 @@ template <int deg> // deg equals to degree of your polynomial
 class Polynomial
 {
     Eigen::Matrix<double, deg + 1, 1> coef;
-
+    friend class ThreeInterpolation ;
   public:
     Polynomial() //创建deg阶的系数都为0的多项式
         : coef(Eigen::Matrix<double, 1, deg + 1>::Zero())
