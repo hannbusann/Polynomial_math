@@ -1,7 +1,7 @@
 # Polynomial_math
 An useful math tool to deal with polynomial problems.
 
-## Prerequisite
+## Prerequisites
 
 These tools depend on Eigen modules. You'd better install Eigen3 in advance. 
 
@@ -10,14 +10,13 @@ These tools depend on Eigen modules. You'd better install Eigen3 in advance.
 ## Functions
 
 - additon **+**
-
 - substraction **-**
-
 - multiplication *
-
+- equal**=**
+- **==**
 - evaluaiton **eval()**
-
 - rooting **findRoots()**
+- get the degree **getDegree**
 
 
 ## Test
